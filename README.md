@@ -22,7 +22,7 @@ To practice object oriented programming (OOP), you're going to create a Person c
 - X Each instance of  class `Person` should start with $25 in their bank accounts
 - X Each instance of  class `Person` should start with eight happiness points
 - X Each instance of  class `Person` should start with eight hygiene points
-<!-- - The happiness and hygiene points should be able to change, however the maximum and minimum points for both happiness and hygiene should be 10 and  0 respectively -->
+-X The happiness and hygiene points should be able to change, however the maximum and minimum points for both happiness and hygiene should be 10 and  0 respectively
 -X  The amount in the bank account should also be able to change, though it has no max or min.
 
 ##### Non-attribute defining instance methods
@@ -35,7 +35,7 @@ To practice object oriented programming (OOP), you're going to create a Person c
 
 4. X The `work_out` method should increment the person's happiness by two points, decrease their hygiene by three points, and return the Queen lyrics, "♪ another one bites the dust ♫".
 
-5. The `call_friend` method should accept another instance of the Person class, or "friend". The method should increment the caller and the callee's happiness points by three. If Stella calls her friend Felix, the method should return "Hi Felix! It's Stella. How are you?"
+5. X The `call_friend` method should accept another instance of the Person class, or "friend". The method should increment the caller and the callee's happiness points by three. If Stella calls her friend Felix, the method should return "Hi Felix! It's Stella. How are you?"
 
 6. Finally, the `start_conversation` method should accept two arguments, the person to start a conversation with and the topic of conversation.
   * If the topic is politics, both people get sadder and the method returns "blah blah partisan blah lobbyist".
